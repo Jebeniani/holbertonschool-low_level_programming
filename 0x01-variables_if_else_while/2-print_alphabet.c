@@ -3,6 +3,7 @@
 int main(void)
 {
 	int x, lower_x;
+
 	x = 'A';
 
 	for (x = 'A'; x <= 'Z'; x++)
