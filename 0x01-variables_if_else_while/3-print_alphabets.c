@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int x, lower_x, upper_x;
+	int x, lower_x;
 
 	x = 'A';
 
