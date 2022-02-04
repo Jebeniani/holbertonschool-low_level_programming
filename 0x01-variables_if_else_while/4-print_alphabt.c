@@ -11,7 +11,8 @@ int main(void)
 
 	x = 'A';
 
-	for (x = 'A'; x <= 'Z' && x != 'E' && x != 'Q'; x++)
+	for (x = 'A'; x <= 'Z'; x++)
+	if (x != 'E' && x != 'Q')
 {
 	lower_x = tolower(x);
 	putchar (lower_x);
