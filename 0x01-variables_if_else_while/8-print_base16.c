@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int x, c;
+	int x;
 
 	x = '0';
 
@@ -14,7 +14,7 @@ int main(void)
 {
 	putchar (x);
 }
-	for (c = 'a'; c <= 'f'; c++)
-	putchar (c);
+	for (x = 'a'; x <= 'f'; x++)
+	putchar (x);
 	putchar ('\n');
 }
