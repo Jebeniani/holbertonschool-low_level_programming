@@ -18,11 +18,11 @@ int main(void)
 				{
 					if (i < j && j < k)
 					{
-					putchar(i);
-					putchar(j);
-					putchar(k);
+						putchar(i);
+						putchar(j);
+						putchar(k);
 
-	if ((i + j + k) != ('8' + '9'))
+	if ((i + j + k) != ('7' + '8' + '9'))
 	{
 		putchar(',');
 		putchar(' ');
