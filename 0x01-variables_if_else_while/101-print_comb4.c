@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i, j, k;
@@ -15,22 +15,22 @@ int main(void)
 			for (j = '0'; j <= '9'; j++)
 			{
 				for (k = '0'; k <= '9';	k++)
-				{	
-					if (i < j < k)
+				{
+					if (i != j && j != k && k != i)
 					{
 					putchar(i);
 					putchar(j);
 					putchar(k);
 
-						if ((i + j + k) != ('8' + '9'))
-						{	
-							putchar(',');
-							putchar(' ');
-						}
+	if ((i + j + k) != ('8' + '9'))
+	{
+		putchar(',');
+		putchar(' ');
+	}
 					}
 				}
 			}
 		}
-			        putchar('\n');
-				return (0);
+	putchar('\n');
+	return (0);
 }
