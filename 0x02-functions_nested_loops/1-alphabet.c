@@ -3,17 +3,18 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * Return: Always return void.
  */
 int main(void)
 {
+void print_alphabet(void);
+
 	int i;
 
 	for (i = 97 ; i <= 122; i++)
-
+	{
 	_putchar(i);
-
+	}
 	_putchar('\n');
-	print_alphabet(i);
-	return (0);
+	
 }
