@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * main - check the code
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0.
  */
-int print_alphabet(void)
+int main(void)
 {
 	int i;
 
@@ -16,5 +14,6 @@ int print_alphabet(void)
 	_putchar(i);
 
 	_putchar('\n');
+	print_alphabet(i);
 	return (0);
 }
