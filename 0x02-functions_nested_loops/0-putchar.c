@@ -9,16 +9,14 @@
  */
 int main(void)
 {
-	int i;
-	putchar('_')
+	putchar('_');
 	putchar('p');
-	putchar('u')
+	putchar('u');
 	putchar('t');
-	putchar('c')
+	putchar('c');
 	putchar('h');
-	putchar('a')
+	putchar('a');
 	putchar('r');
-
-	_putchar('\n');
+	putchar('\n';
 	return (0);
 }
