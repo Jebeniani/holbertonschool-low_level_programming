@@ -10,9 +10,7 @@
 int _putchar(char c)
 {
 		return (write(1, &c, 1));
-		putchar(_putchar);
-	
-	putchar ('\n');
+
 	return (0);
 }
 
