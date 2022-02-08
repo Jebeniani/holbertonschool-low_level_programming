@@ -6,16 +6,15 @@
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
- */ 
+ */
 int main(void)
 {
-	int i, str;
-	char str[_putchar];
+	int i;
 
-	for (i = 0; i < 8; i++)
+	for (i = '97' ; i < '122' ; i++)
 	{
-	putchar(str[i])
+	putchar(i)
 	}
-	putchar ('\n')
-	return (0); 
-} 
+	putchar ('10')
+	return (0);
+}
