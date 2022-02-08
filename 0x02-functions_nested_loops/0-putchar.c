@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
  * _putchar - writes the character c to stdout
@@ -7,10 +7,10 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _putchar(char c)
-{
-		return (write(1, &c, 1));
-
-	return (0);
-}
-
+int write(int filedes, const char *buf, unsigned int nbyte); 
+int main( int argc, char** argv ) 
+{ 
+	   write(1, "_putchar\n", 9); 
+	    
+	      return 0; 
+} 
