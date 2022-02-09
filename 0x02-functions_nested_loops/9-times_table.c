@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * times_tabls - that prints the 9 times table
+ * times_table - that prints the 9 times table
  *
- * Return: no return
+ * Return: 0 (Success)
  */
 void times_table(void)
 {
