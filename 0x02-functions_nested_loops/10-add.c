@@ -2,12 +2,12 @@
 
 /**
  * add - add two integers
- * @s: two integers
- * @u: two integers
+ *
+ * 
  * Return: result
  */
 
-int add(int, int)
+int add(int s, int u)
 {
 	return(s + u);
 }
