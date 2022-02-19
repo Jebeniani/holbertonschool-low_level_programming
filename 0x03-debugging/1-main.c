@@ -18,7 +18,7 @@ int main(void)
 	 *	putchar(i);
 	 * }
 	 */
-	printf("Infinite loop avided! \\o:\n");
+	printf("Infinite loop avided! \\o/\n");
 
 	return (0);
 }
