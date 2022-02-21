@@ -4,13 +4,13 @@
  * _strchr - a function that locates a character in a string
  * @s: integer
  * @c: integer
- * Return: Always s.
+ * Return: 0
  */
 
 char *_strchr(char *s, char c)
 {
 
-	for (; c != '\0'; ++s)
+	while (++s)
 	{
 		if (*s == c)
 		return (s);
