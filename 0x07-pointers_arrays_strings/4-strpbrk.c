@@ -9,6 +9,18 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	s += strcspn(s, accept);
-	return (s);
+	if ((s == NULL) || (accept == NULL))
+		return (NULL);
+	while (*s)
+	{
+		if (strchr(accept, *s))
+		{
+			return (s);
+		}
+		else
+		{
+			s++;
+		}
+	}
+	return (NULL);
 }
