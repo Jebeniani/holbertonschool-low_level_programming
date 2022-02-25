@@ -8,3 +8,6 @@
 
 void puts_half(char *str)
 {
+	for (i = 0; s[i] != '\0'; i++)	
+	{
+		
