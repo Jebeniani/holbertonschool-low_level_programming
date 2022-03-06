@@ -1,10 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- *  Return: Always 0.
+ * _strcpy - copies a string
+ * @dest: pointer
+ * @src: pointer destination
+ *  Return: Always pointer.
  */
 
 char *_strcpy(char *dest, char *src)
 {
+	char *p = dest;
+
+	while (*src)
+	{
+		*dest++ = *src++;
+	}
+	*dest = 0;
+	return (p);
+}
