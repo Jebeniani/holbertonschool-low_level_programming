@@ -1,11 +1,10 @@
 #include "lists.h"
 
 /**
- * add_note - function that adds a new node at the beginning of a list_t list
+ * add_node - function that adds a new node at the beginning of a list_t list
  * @head: double pointer
  * @str: pointer
- *
- * Return: Adress of new element
+ * Return: Address of new element or NULL.
  */
 
 list_t *add_node(list_t **head, const char *str)
