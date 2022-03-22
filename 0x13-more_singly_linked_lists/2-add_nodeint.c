@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * add_node - function that adds a new node at the beginning of a list_t list
+ * add_nodeint - function that adds a new node at the beginning of a list
  * @head: double pointer
- * @str: pointer
+ * @n: pointer
  * Return: Address of new element or NULL.
  */
 
@@ -17,7 +17,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	if (new_node == NULL)
 	{
 		free(new_node);
-		return(NULL);
+		return (NULL);
 	}
 	new_node->n = n;
 	new_node->next = *head;
